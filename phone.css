@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background: url("bg2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+body::before{
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.774);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.love h1{
+    font-family: cursive;
+    font-size: 3.5rem;
+    color: hotpink;
+}
+.love h1 i{
+    font-size: 3.5rem;
+    color: hotpink;
+}

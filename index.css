@@ -1,0 +1,52 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background: url("bg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+body::before{
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.582);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.79;
+}
+.love h1{
+    font-family: cursive ;
+    font-size: 5rem;
+    color: crimson;
+}
+.love h1 i{
+    font-size: 5rem;
+    color: red;
+}
+.btn1{
+    height:50px;
+    width: 200px;
+    background-color: black;
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: crimson;
+    padding: 8px 8px;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: red;
+}
